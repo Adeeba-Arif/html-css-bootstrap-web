@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-css-bootstrap-task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/bootstrap//bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" alt="logo" width="150px" height="100px" class="d-inline-block align-text-top">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul class="nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contact.html">Contact</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+          </ul>
+        </div>
+      </nav>
+      <section class="hero">
+        <h1 class="display-4">Welcome To The Innovtive World</h1> <br> <br>
+        <a href="#services" class="btn btn-primary btn-lg">Explore Services</a>
+    </section>
+    <section id="services">
+       <center> <h2>Our Services</h2></center>
+        <div id="services-cont" >
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/ser-img.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/ser-img.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/ser-img.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="py-5 bg-light">
+      <div class="container">
+          <h2 class="text-center mb-4">What Our Clients Say</h2>
+          <div class="row justify-content-center">
+              <!-- Testimonial 1 -->
+              <div class="col-md-4">
+                <div class="card shadow-lg border-0 text-center">
+                    <img src="./assets/img/member.jpg" alt="Alice Johnson" class="rounded-circle mx-auto mt-3" width="100" height="100">
+                    <div class="card-body">
+                        <i class="bi bi-quote text-primary fs-1"></i>
+                        <p class="card-text">"Fantastic experience! Will definitely use this service again."</p>
+                        <h5 class="mt-3">Alice Johnson</h5>
+                        <p class="text-muted">Freelance Designer</p>
+                    </div>
+                </div>
+            </div>
+              <!-- Testimonial 2 -->
+              <div class="col-md-4">
+                <div class="card shadow-lg border-0 text-center">
+                    <img src="./assets/img/member.jpg" alt="Alice Johnson" class="rounded-circle mx-auto mt-3" width="100" height="100">
+                    <div class="card-body">
+                        <i class="bi bi-quote text-primary fs-1"></i>
+                        <p class="card-text">"Fantastic experience! Will definitely use this service again."</p>
+                        <h5 class="mt-3">Alice Johnson</h5>
+                        <p class="text-muted">Freelance Designer</p>
+                    </div>
+                </div>
+            </div>
+              <!-- Testimonial 3 -->
+              <div class="col-md-4">
+                  <div class="card shadow-lg border-0 text-center">
+                      <img src="./assets/img/member.jpg" alt="Alice Johnson" class="rounded-circle mx-auto mt-3" width="100" height="100">
+                      <div class="card-body">
+                          <i class="bi bi-quote text-primary fs-1"></i>
+                          <p class="card-text">"Fantastic experience! Will definitely use this service again."</p>
+                          <h5 class="mt-3">Alice Johnson</h5>
+                          <p class="text-muted">Freelance Designer</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <footer class="footer text-center py-4 bg-dark text-white">
+      <p>Follow us on social media</p>
+      <div class="d-flex justify-content-center gap-3">
+          <a href="https://facebook.com" target="_blank" class="text-white fs-4"><img src="./assets/icons/facebook.svg" alt=""></a>
+          <a href="https://twitter.com" target="_blank" class="text-white fs-4"><img src="./assets/icons/twitter-x.svg" alt=""></a>
+          <a href="https://instagram.com" target="_blank" class="text-white fs-4"><img src="./assets/icons/instagram.svg" alt=""></a>
+          <a href="https://linkedin.com" target="_blank" class="text-white fs-4"><img src="./assets/icons/linkedin.svg" alt=""></a>
+          <a href="https://github.com" target="_blank" class="text-white fs-4"><img src="./assets/icons/github.svg" alt=""></a>
+      </div>
+      <p class="mt-3">&copy; 2025 Aab Company. All rights reserved.</p>
+  </footer> 
+</body>
+</html>
